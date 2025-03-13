@@ -13,10 +13,9 @@
 .image-container {
   height: 288px;
   width: 288px;
- border-radius: 10px;
-  
+  border-radius: 10px;
 }
-.image{
+.image {
   padding: 16px;
 }
 
@@ -30,15 +29,12 @@
   column-gap: 24px;
   text-align: center;
   padding-bottom: 40px;
-  
 }
-
-
 
 .text {
   color: #1f314f;
   font-size: 22px;
-  font-family: "Outfit", sans-serif; 
+  font-family: "Outfit", sans-serif;
   line-height: 120%;
   letter-spacing: 0px;
   padding-right: 16px;
@@ -49,12 +45,9 @@
   font-size: 15px;
   line-height: 140%;
   letter-spacing: 0.2px;
-  color: gray;
-  font-family: "Outfit", sans-serif; 
-
+  color: #64748b;
+  font-family: "Outfit", sans-serif;
   padding-right: 16px;
   padding-left: 16px;
   font-style: normal;
 }
-
-
