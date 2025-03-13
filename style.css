@@ -28,6 +28,8 @@
   flex-direction: column;
   border-radius: 20px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .heading {
