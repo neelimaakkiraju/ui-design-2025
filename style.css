@@ -2,12 +2,15 @@
 
 .main-container {
   background-color: #d5e1ef;
+  top:0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: fixed;
 }
 
 .image-container {
@@ -21,15 +24,15 @@
 }
 
 .body-container {
-  height: 499px;
-  width: 320px;
+  max-height: 499px;
+  max-width: 320px;
   background-color: white;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  
 }
 
 .heading {
@@ -43,14 +46,19 @@
   padding: 0px 16px 16px 16px;
 }
 
+
+.outfit-subheading {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .sub-heading {
   font-size: 15px;
   line-height: 140%;
   letter-spacing: 0.2px;
   color: #64748b;
-  font-family: "Outfit", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   margin: 0;
   padding: 0px 16px 40px 16px;
 }
